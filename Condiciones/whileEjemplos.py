@@ -6,4 +6,15 @@ while(numerillo <= 10): #Mientras el numero sea menor o igual a 10, seguirá eje
     print("El valor del numero es: ", numerillo) #Imprime el valor del numero
     numerillo = numerillo + 1 #Incrementa el numero en 1
 
+#Other Example
+
+num = 5
+i = 0
+texto = ""
+
+while (i < num):
+    texto = texto + "*";
+    print(texto)
+    i += 1
+
 '''ToDo: Realizar un programa que mientras esté lloviendo, el usuario lleve paraguas'''
