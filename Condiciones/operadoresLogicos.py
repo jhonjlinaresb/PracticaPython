@@ -23,3 +23,12 @@ if (pago >= valorEntrada or pago == valorEntrada): #Debe cumplir con alguna de l
         print("No le devolvemos nada") #Si el pago es igual al valor de la entrada
 else:
     print("No puede pasar al teatro porque no ha pagado la cantidad de entrada")
+
+#Ejercicio 3 - Negacion ejemplo:
+
+ofertas = int(9)
+
+if (not ofertas > 10):
+    print ("Hay varias ofertas")
+else:
+    print ("NO")
